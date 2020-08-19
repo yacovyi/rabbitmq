@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3300de43-99ae-4185-8089-803b8a070f8c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gJSdq7v7z18r23JjcsIcV2byuO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.18.3/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3300de43-99ae-4185-8089-803b8a070f8c" name="Default Changelist" comment="" />
+      <created>1597831292140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597831292140</updated>
+      <workItem from="1597831293227" duration="9167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="755" y="343" key="#xdebugger.evaluate" timestamp="1597838740052">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state x="755" y="343" key="#xdebugger.evaluate/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597838740052" />
+    <state width="1832" height="262" key="GridCell.Tab.0.bottom" timestamp="1597852911279">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="262" key="GridCell.Tab.0.bottom/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597852911279" />
+    <state width="1832" height="262" key="GridCell.Tab.0.center" timestamp="1597852911279">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="262" key="GridCell.Tab.0.center/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597852911279" />
+    <state width="1832" height="262" key="GridCell.Tab.0.left" timestamp="1597852911279">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="262" key="GridCell.Tab.0.left/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597852911279" />
+    <state width="1832" height="262" key="GridCell.Tab.0.right" timestamp="1597852911279">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="262" key="GridCell.Tab.0.right/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597852911279" />
+    <state width="1832" height="248" key="GridCell.Tab.1.bottom" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.1.bottom/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.1.center" timestamp="1597840062271">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.1.center/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062271" />
+    <state width="1832" height="248" key="GridCell.Tab.1.left" timestamp="1597840062271">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.1.left/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062271" />
+    <state width="1832" height="248" key="GridCell.Tab.1.right" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.1.right/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.2.bottom" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.2.bottom/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.2.center" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.2.center/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.2.left" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.2.left/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.2.right" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.2.right/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.3.bottom" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.3.bottom/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.3.center" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.3.center/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.3.left" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.3.left/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+    <state width="1832" height="248" key="GridCell.Tab.3.right" timestamp="1597840062272">
+      <screen x="65" y="24" width="1855" height="1176" />
+    </state>
+    <state width="1832" height="248" key="GridCell.Tab.3.right/1920.0.1920.1200/65.24.1855.1176@65.24.1855.1176" timestamp="1597840062272" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test.js</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test.js</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/rabbitmq.js</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/rabbitmq.js</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/rabbitmq.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test.js</url>
+          <line>44</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test.js</url>
+          <line>27</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test.js</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
