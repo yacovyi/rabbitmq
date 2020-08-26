@@ -1,6 +1,6 @@
 const RabbitMQ = require('./rabbitmq')
 
-const qName = "q1";
+const qName = "rx_stratego_frame_dev";
 const qOptions = {
     durable: true
 };
@@ -9,7 +9,32 @@ const noAck = {
 };
 
 const config = {
-    configConnection : {}
+    "connectionStrings": [
+        "amqp://localhost"
+    ],
+    "isConnectionEnabled": true,
+    "queues": [
+        {
+            "qName": "rx_stratego_frame_dev",
+            "qTTL": 10
+        },
+        {
+            "qName": "rx_stratego_solution_dev",
+            "qTTL": 10
+        },
+        {
+            "qName": "rx_stratego_frame_files_dev",
+            "qTTL": 10
+        },
+        {
+            "qName": "rx_stratego_additional_image_dev",
+            "qTTL": 10
+        },
+        {
+            "qName": "rx_stratego_global_file_dev",
+            "qTTL": 10
+        }
+    ]
 };
 const rabbitMQ = new RabbitMQ(config);
 
@@ -17,32 +42,30 @@ const rabbitMQ = new RabbitMQ(config);
     await rabbitMQ.init();
 
     // push messages
-    send(JSON.stringify({time: Date.now()}));
+    //send(JSON.stringify({time: Date.now().toString()}));
+    //send(JSON.stringify({name: "yacov"}));
 
     // print queue size
     await queueSize();
 
-    var message = {};
-    var messages = [];
+    let messages = await getAllMessages();
 
-    while (message) {
-        message =  await get(noAck);
-        if (message) {
-            console.log(message.content.toString());
-            rabbitMQ.ack(message);
-        } else {
-            await rabbitMQ.ackAll();
-            process.exit(0)
-        }
-        messages.push(message)
-    }
+    await queueSize();
 
+    messages.forEach(message => {
+        //rabbitMQ.ack(qName, message);
+        rabbitMQ.nack(qName, message);
 
+        const content = rabbitMQ.getMessageContent(message);
+        const getMessageFailureCount = rabbitMQ.getMessageFailureCount(message);
+
+        console.log(getMessageFailureCount, content.name)
+    })
 
 })();
 
 async function queueSize() {
-    const responseQueue = await rabbitMQ.responseQueue(qName, qOptions);
+    const responseQueue = await rabbitMQ.responseQueue(qName);
     const queueSize = responseQueue.messageCount;
     console.log(`${qName} size ${queueSize}`)
     return queueSize;
@@ -53,4 +76,18 @@ function send(message) {
 }
 async function get(options) {
     return rabbitMQ.get(qName, options);
+}
+
+async function getAllMessages() {
+    let messages = [];
+    let message = {};
+    // fetch all messages
+    while (message) {
+        message =  await get();
+        if (!message)
+            break;
+        messages.push(message)
+    }
+
+    return messages;
 }
